@@ -8,14 +8,32 @@ Docker is an essential tool, particularly when working in large organisations an
 3.	The Classical Problem: This scenario often results in the famous software development problem: "It works on my machine".
 
 Essential Docker Commands:
-Command	Purpose
-docker pull <image_name>	Fetches the specified image from Docker Hub to the local system.
-docker images	Lists all Docker images currently available on the local system.
-docker run <image_name>	Creates and executes a new container from the specified image.
-docker run -it <image_name>	Runs the container in Interactive Mode, allowing the user to access the container's terminal (e.g., a running Ubuntu container's terminal).
-docker ps	Lists all running containers.
-docker ps -a	Lists all containers, including those that are stopped (exited).
-docker start <id/name>	Starts an existing, stopped container.
-docker stop <id/name>	Stops a running container.
-docker rm <id/name>	Removes/deletes a container permanently.
-docker rmi <id/name>	Removes/destroys a Docker image.
+1️⃣ docker pull <image_name>
+→ Fetches (downloads) the specified image from Docker Hub to your local system.
+
+2️⃣ docker images
+→ Lists all Docker images currently available on the local system.
+
+3️⃣ docker run <image_name>
+→ Creates and executes a new container from the specified image.
+
+4️⃣ docker run -it <image_name>
+→ Runs the container in interactive mode, allowing you to access the container’s terminal (e.g., Ubuntu shell).
+
+5️⃣ docker ps
+→ Lists all currently running containers.
+
+6️⃣ docker ps -a
+→ Lists all containers, including those that have stopped (exited).
+
+7️⃣ docker start <container_id/name>
+→ Starts an existing, stopped container.
+
+8️⃣ docker stop <container_id/name>
+→ Stops a running container.
+
+9️⃣ docker rm <container_id/name>
+→ Permanently removes (deletes) a container.
+
+🔟 docker rmi <image_id/name>
+→ Removes (deletes) a Docker image from the system.
